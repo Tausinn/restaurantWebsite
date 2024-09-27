@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#food">Our Menu</a>
+            
+           
+        </nav>
+        <div class="content">
+            <h1>The Pahalgam</h1>
+            <p>Welcome to our restaurant, Halishahar Ctg</p>
+            <div class="social-icons">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                
+           
+    </header>
+
+    
+
+    <section id="about-us">
+        <div class="about-container">
+          
+            <div class="text-container">
+                <h2>About Us</h2>
+                <p>
+                    Faudantium magnam error temporibus ipsum aliquid neque quibusdam dolorem, quia ea numquam assumenda mollitia dolorem impedit.
+                    Voluptate at ex exercitationem officia temporibus adipisci quae totam enim dolor.
+                </p>
+                <p>
+                    Sapiente soluta nostrum reprehenderit a velit obcaecati facilis vitae magnam tenetur neque. Aliquam quasi, voluptates odio.
+                </p>
+               
+               
+                <div class="image-container">
+                    <img src="./images/aboutImg.jpg" alt="Barista Image"> <!-- Replace with the actual image -->
+                </div>
+            </div>
+           
+        </div>
+    </section>
+
+    <hr>
+
+   
+     
+
+    <section id="most-popular">
+        <div class="section-title">
+            <h2>Our Menu</h2>
+            <p>Check out some of our top-selling dishes!</p>
+        </div>
+        <div class="popular-items-container" id="popular-items">
+            <!-- Initial Dishes -->
+            <div class="popular-item">
+                <div class="image-container">
+                    <img src="./images/foodimg1.jpg" alt="Stracciatella">
+                </div>
+                <div class="popular-info">
+                    <h3>Steak</h3>
+                    <span class="price">1000 BDT</span>
+                </div>
+            </div>
+            <div class="popular-item">
+                <div class="image-container">
+                    <img src="./images/foodimg2.jpg" alt="Chevrefrit au miel">
+                </div>
+                <div class="popular-info">
+                    <h3>Chick Got Fried</h3>
+                    <span class="price">500 BDT</span>
+                </div>
+            </div>
+            <div class="popular-item">
+                <div class="image-container">
+                    <img src="./images/foodimg-3.jpg" alt="Saumon Gravlax">
+                </div>
+                <div class="popular-info">
+                    <h3>Burger Meal</h3>
+                    <span class="price">300 BDT</span>
+                </div>
+            </div>
+        </div>
+            
+            <!-- Additional Dishes (Hidden initially) -->
+            <div class="additional-items-container" id="additional-items">
+                <div class="popular-item">
+                    <div class="image-container">
+                        <img src="./images/foodimg4.jpg" alt="Caprese Salad">
+                    </div>
+                    <div class="popular-info">
+                        <h3>Pancakes</h3>
+                        <span class="price">200 BDT</span>
+                    </div>
+                </div>
+                <div class="popular-item">
+                    <div class="image-container">
+                        <img src="./images/foodimg5.jpg" alt="Tiramisu">
+                    </div>
+                    <div class="popular-info">
+                        <h3>Chocolate Pastry</h3>
+                        <span class="price">200 BDT</span>
+                    </div>
+                </div>
+                <div class="popular-item">
+                    <div class="image-container">
+                        <img src="./images/foodimg6.jpg" alt="Carbonara">
+                    </div>
+                    <div class="popular-info">
+                        <h3>Salad</h3>
+                        <span class="price">300 BDT</span>
+                    </div>
+                </div>
+            </div>
+        
+    
+        <!-- Full Menu Button -->
+        <div class="menu-button-container">
+            <button class="menu-btn" id="menu-button" onclick="toggleMenu()">Full Menu</button>
+        </div>
+
+    </section>
+
+    <hr>
+
+    <section id="restaurant-video" class="video-section">
+        <div class="section-title">
+            <h2>Explore Our Restaurant</h2>
+            <p>Take a look at the ambiance and interior design of our restaurant.</p>
+        </div>
+        <div class="video-container">
+            <video controls>
+                <source src="./video/video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </section>
+
+    <hr>
+
+    <section id="our-chef" class="chef-section">
+        <div class="section-title">
+            <h2>Meet Our Chef</h2>
+            <p>Discover the talent behind our delicious dishes!</p>
+        </div>
+        <div class="chef-container">
+            <div class="chef-photo">
+                <img src="./images/chefImg.jpg" alt="Chef Name">
+            </div>
+            <div class="chef-info">
+                <h3>Chef Name</h3>
+                <p>Chef Name is a culinary expert with over 15 years of experience. With a passion for using fresh, locally sourced ingredients, Chef Name creates exquisite dishes that reflect both tradition and innovation.</p>
+                <p>Known for their creativity and attention to detail, Chef Name has received numerous accolades and continues to inspire the team with their vision for gastronomy.</p>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+    <section id="customer-reviews" class="reviews-section">
+        <div class="section-title">
+            <h2>What Our Customers Say</h2>
+            <p>Your feedback means the world to us!</p>
+        </div>
+        <div class="reviews-container">
+            <div class="review-card">
+                <div class="profile-pic">
+                    <img src="profile-pic1.jpg" alt="Customer 1">
+                </div>
+                <div class="review-info">
+                    <h3>Emily R.</h3>
+                    <p>"Absolutely loved the ambiance and the food! The Stracciatella was to die for. Will definitely come back!"</p>
+                </div>
+            </div>
+            <div class="review-card">
+                <div class="profile-pic">
+                    <img src="profile-pic2.jpg" alt="Customer 2">
+                </div>
+                <div class="review-info">
+                    <h3>Michael T.</h3>
+                    <p>"Great service and even better food! The Chevrefrit au Miel was amazing. Highly recommend this place!"</p>
+                </div>
+            </div>
+            <div class="review-card">
+                <div class="profile-pic">
+                    <img src="profile-pic3.jpg" alt="Customer 3">
+                </div>
+                <div class="review-info">
+                    <h3>Sarah L.</h3>
+                    <p>"A fantastic dining experience! The Saumon Gravlax was delicious and the staff were incredibly friendly."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-section">
+        <div class="footer-content">
+            <div class="contact-info">
+                <h3>Contact Us</h3>
+                <div class="contact-links">
+                <p>Email: <a href="mailto:info@pahalgam.com">info@pahalgam.com</a></p>
+                <p>Phone: <a href="tel:+1234567890">+1234567890</a></p>
+                <p>Address: Halishahar Ctg</p>
+            </div>
+            </div>
+            <div class="social-media">
+                <h3>Follow Us</h3>
+                <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p class="footer-p">&copy; 2024 The Pahalgam. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <div id="preloader">
+        <div class="loader">
+            <h1>The Pahalgam</h1>
+        </div>
+    </div>
+    
+        
+   
+    <script src="https://kit.fontawesome.com/6907439631.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
